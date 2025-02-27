@@ -1,16 +1,27 @@
 ## Hi there 👋
 
-<!--
-**lzw0312/lzw0312** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+| 这个作业属于哪个课程 | https://edu.cnblogs.com/campus/gdgy/SoftwareEngineeringClassof2023/ |
+| ----------------- |--------------- |
+| 这个作业要求在哪里| https://edu.cnblogs.com/campus/gdgy/SoftwareEngineeringClassof2023/homework/13325 |
+| 这个作业的目标 | 进行自我介绍，学会写博客、使用GitHub |
 
-Here are some ideas to get you started:
+### 自我介绍
+ 我是林梓维，目前就读于广东工业大学软件工程1班，平时喜欢看小说和看综艺，以后想成为一名后端开发工程师，目前正在学习后端开发所需要具备的知识，希望能不断提高自己的开发技能。
+### 软工五问
+ 1.在需求分析的时候，如何有效应对需求不明确或频繁变更的问题？
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ 2.在软件设计的时候，如何确保设计的高内聚、低耦合，有哪些设计原则或模式可以帮助提高软件的可维护性和可扩展性？
+
+ 3.如何设计全面的设计用例以确保软件质量？
+
+ 4.在软件项目的管理中，如何有效识别、评估和应对风险？
+
+ 5.随着人工智能的发展，软件工程领域可能会有哪些新的趋势和挑战，后端开发人员又需要具备哪些新的技能？
+### 预期收获
+*  掌握扎实的编程基础，学习当前就业需要的后端核心技术
+
+*  学习如何设计高可用、高扩展的后端系统，掌握微服务架构、分布式系统的设计原则
+
+*  提高自己优化系统的能力，学会常见的高并发场景下的解决方案
+
+*  提高自己团队协作和沟通能力，提升文档编写能力，能够清晰地表达技术方案和设计思路
