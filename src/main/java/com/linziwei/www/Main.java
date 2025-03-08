@@ -1,6 +1,7 @@
 package com.linziwei.www;
 
 import java.io.File;
+import java.io.FileNotFoundException;
 
 import static com.linziwei.www.PlagiarismChecker.*;
 import static com.linziwei.www.util.FileUtil.readFile;
@@ -14,7 +15,7 @@ import static java.lang.Thread.sleep;
  */
 
 public class Main {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws InterruptedException, FileNotFoundException {
         //验证参数个数
         if (args.length != 3) {
             System.out.println("请输入三个参数：原文件路径、抄袭文件路径、答案文件路径");
@@ -34,7 +35,7 @@ public class Main {
         // 验证文件路径是否有效
         if (answerTest.trim().isEmpty() || !file.exists()) {
             System.out.println("Invalid file path: " + answerTest);
-            return;
+            throw new FileNotFoundException("Invalid file path: " + answerTest);
         }
         //计算重复率
         String result = plagiarismChecker(originalText, copiedText, answerTest);

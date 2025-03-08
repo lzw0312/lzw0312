@@ -15,12 +15,12 @@ public class FileUtil {
      * @Description 读取文件数据
      * @Date 2025/3/7
      */
-    public static String readFile(String filePath) {
+    public static String readFile(String filePath) throws FileNotFoundException {
         File file = new File(filePath);
         // 验证文件是否存在且是一个文件
         if (!file.exists() || !file.isFile()) {
             System.out.println("Invalid file path: " + filePath);
-            throw new IllegalArgumentException("Invalid file path: " + filePath);
+            throw new FileNotFoundException("Invalid file path: " + filePath);
         }
 
         StringBuilder content = new StringBuilder();
